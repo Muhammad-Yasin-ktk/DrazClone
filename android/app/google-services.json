@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "746742072425",
+    "project_id": "drazclone-a3bf3",
+    "storage_bucket": "drazclone-a3bf3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746742072425:android:d1438056ad3f7cbb7d8ef8",
+        "android_client_info": {
+          "package_name": "com.example.daraz_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746742072425-crf7l08dvi1aq2b98qibbcar0r60j7a9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg_N9dXG_Vm3lDC7S_hZYpz_vtUwaZH_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746742072425-crf7l08dvi1aq2b98qibbcar0r60j7a9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
