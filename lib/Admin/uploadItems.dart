@@ -205,7 +205,7 @@ class _UploadPageState extends State<UploadPage>
       'thumbnailUrl': url,
       'longDescription': _discriptioncontroller.text.trim(),
       'status': 'Available',
-      'price': _priceController.text.trim()
+      'price': double.parse(_priceController.text.trim())
     });
     setState(() {
       uploading=false;
@@ -242,8 +242,8 @@ class _UploadPageState extends State<UploadPage>
             color: Colors.white,
           ),
           onPressed: () {
-            Navigator.of(context).pushReplacement(
-                MaterialPageRoute(builder: (_) => AdminShiftOrders()));
+//            Navigator.of(context).pushReplacement(
+//                MaterialPageRoute(builder: (_) => AdminShiftOrders()));
           },
         ),
         actions: [

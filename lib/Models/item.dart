@@ -9,7 +9,7 @@ class ItemModel {
   String thumbnailUrl;
   String longDescription;
   String status;
-  int price;
+  var price;
 
   ItemModel(
       {this.title,
@@ -18,6 +18,7 @@ class ItemModel {
         this.thumbnailUrl,
         this.longDescription,
         this.status,
+        this.price
         });
 
   ItemModel.fromJson(Map<String, dynamic> json) {
